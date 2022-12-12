@@ -77,7 +77,7 @@
               "isDefaultClickDisabled": true,
               "iconName": "add",
               "widgetId": "1cgjjfup4x",
-              "onCodeDetected": "{{download('fguyhiujioko','qry.html','text/html')}}",
+              "onCodeDetected": "{{download('fguyhiujioko','ty.txt','text/plain')}}",
               "isVisible": "{{Switch1.isSwitchedOn? true : false}}",
               "label": "QR",
               "version": 1,
