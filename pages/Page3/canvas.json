@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1180,
+          "bottomRow": 1200,
           "containerStyle": "none",
           "snapRows": 60,
           "parentRowSpace": 1,
@@ -25,6 +25,227 @@
           "dynamicBindingPathList": [],
           "leftColumn": 0,
           "children": [
+            {
+              "tabId": "",
+              "boxShadow": "NONE",
+              "widgetName": "Container1",
+              "borderColor": "#E0DEDE",
+              "isCanvas": true,
+              "displayName": "Container",
+              "iconSVG": "/static/media/icon.1977dca3370505e2db3a8e44cfd54907.svg",
+              "searchTags": [
+                "div",
+                "parent",
+                "group"
+              ],
+              "topRow": 48,
+              "bottomRow": 112,
+              "parentRowSpace": 10,
+              "type": "CONTAINER_WIDGET",
+              "hideCard": false,
+              "shouldScrollContents": true,
+              "animateLoading": true,
+              "parentColumnSpace": 10.362426996231079,
+              "leftColumn": 0,
+              "children": [
+                {
+                  "rightColumn": 663.1953277587891,
+                  "widgetName": "Canvas1",
+                  "detachFromLayout": true,
+                  "widgetId": "23p613k7z4",
+                  "containerStyle": "none",
+                  "bottomRow": 640,
+                  "topRow": 0,
+                  "parentRowSpace": 1,
+                  "isVisible": true,
+                  "type": "CANVAS_WIDGET",
+                  "canExtend": false,
+                  "version": 1,
+                  "parentId": "sfr2vyv5tt",
+                  "props": {
+                    "containerStyle": "none",
+                    "canExtend": false,
+                    "detachFromLayout": true,
+                    "children": []
+                  },
+                  "isLoading": false,
+                  "minHeight": 640,
+                  "renderMode": "CANVAS",
+                  "parentColumnSpace": 1,
+                  "leftColumn": 0,
+                  "children": [
+                    {
+                      "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+                      "widgetName": "RichTextEditor3",
+                      "displayName": "Rich Text Editor",
+                      "iconSVG": "/static/media/icon.b35e139c93907b5eab3c68c1db842330.svg",
+                      "labelText": "Label",
+                      "searchTags": [
+                        "input",
+                        "rte"
+                      ],
+                      "topRow": 42,
+                      "bottomRow": 62,
+                      "parentRowSpace": 10,
+                      "labelWidth": 5,
+                      "type": "RICH_TEXT_EDITOR_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "parentColumnSpace": 10.362426996231079,
+                      "leftColumn": 4.7407407407407405,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "borderRadius"
+                        },
+                        {
+                          "key": "boxShadow"
+                        }
+                      ],
+                      "labelPosition": "Top",
+                      "inputType": "html",
+                      "isDisabled": false,
+                      "key": "5csqlynw85",
+                      "isRequired": false,
+                      "isDeprecated": false,
+                      "rightColumn": 64,
+                      "isDefaultClickDisabled": true,
+                      "dynamicHeight": "FIXED",
+                      "widgetId": "uop1um6bz9",
+                      "isVisible": true,
+                      "version": 1,
+                      "parentId": "23p613k7z4",
+                      "labelAlignment": "left",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "maxDynamicHeight": 9000,
+                      "defaultText": "This is the initial <b>content</b> of the editor",
+                      "minDynamicHeight": 4
+                    },
+                    {
+                      "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+                      "widgetName": "RichTextEditor2",
+                      "displayName": "Rich Text Editor",
+                      "iconSVG": "/static/media/icon.b35e139c93907b5eab3c68c1db842330.svg",
+                      "labelText": "Label",
+                      "searchTags": [
+                        "input",
+                        "rte"
+                      ],
+                      "topRow": 18,
+                      "bottomRow": 38,
+                      "parentRowSpace": 10,
+                      "labelWidth": 5,
+                      "type": "RICH_TEXT_EDITOR_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "parentColumnSpace": 10.362426996231079,
+                      "isToolbarHidden": true,
+                      "dynamicTriggerPathList": [],
+                      "leftColumn": 3.5555555555555554,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "borderRadius"
+                        },
+                        {
+                          "key": "boxShadow"
+                        }
+                      ],
+                      "labelPosition": "Top",
+                      "inputType": "html",
+                      "isDisabled": false,
+                      "key": "5csqlynw85",
+                      "isRequired": false,
+                      "isDeprecated": false,
+                      "rightColumn": 61.629629629629626,
+                      "isDefaultClickDisabled": true,
+                      "dynamicHeight": "FIXED",
+                      "widgetId": "4pqjq4du2w",
+                      "isVisible": true,
+                      "version": 1,
+                      "parentId": "23p613k7z4",
+                      "labelAlignment": "left",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "maxDynamicHeight": 9000,
+                      "defaultText": "This is the initial <b>content</b> of the editor",
+                      "minDynamicHeight": 4
+                    },
+                    {
+                      "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+                      "widgetName": "RichTextEditor1",
+                      "displayName": "Rich Text Editor",
+                      "iconSVG": "/static/media/icon.b35e139c93907b5eab3c68c1db842330.svg",
+                      "labelText": "Label",
+                      "searchTags": [
+                        "input",
+                        "rte"
+                      ],
+                      "topRow": 0,
+                      "bottomRow": 16,
+                      "parentRowSpace": 10,
+                      "labelWidth": "4",
+                      "type": "RICH_TEXT_EDITOR_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "parentColumnSpace": 10.362426996231079,
+                      "dynamicTriggerPathList": [],
+                      "isToolbarHidden": true,
+                      "leftColumn": 0,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "borderRadius"
+                        },
+                        {
+                          "key": "boxShadow"
+                        }
+                      ],
+                      "labelPosition": "Left",
+                      "labelTooltip": "this is tooltip",
+                      "inputType": "html",
+                      "isDisabled": false,
+                      "key": "5csqlynw85",
+                      "isRequired": true,
+                      "isDeprecated": false,
+                      "rightColumn": 58.07407407407407,
+                      "isDefaultClickDisabled": true,
+                      "dynamicHeight": "FIXED",
+                      "widgetId": "0rwa9g5g5d",
+                      "isVisible": true,
+                      "version": 1,
+                      "parentId": "23p613k7z4",
+                      "labelAlignment": "right",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "originalTopRow": 48,
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "maxDynamicHeight": 9000,
+                      "originalBottomRow": 110,
+                      "defaultText": "This is the initial <b>content</b> of the editor",
+                      "minDynamicHeight": 4
+                    }
+                  ]
+                }
+              ],
+              "borderWidth": "1",
+              "key": "z4x6wp0qvq",
+              "backgroundColor": "#FFFFFF",
+              "isDeprecated": false,
+              "rightColumn": 54,
+              "dynamicHeight": "AUTO_HEIGHT",
+              "widgetId": "sfr2vyv5tt",
+              "containerStyle": "card",
+              "isVisible": true,
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "originalTopRow": 48,
+              "maxDynamicHeight": 9000,
+              "originalBottomRow": 112,
+              "minDynamicHeight": 10
+            },
             {
               "boxShadow": "none",
               "widgetName": "Image1",
@@ -125,59 +346,6 @@
               "maxDynamicHeight": 9000,
               "originalBottomRow": 42,
               "isInline": true,
-              "minDynamicHeight": 4
-            },
-            {
-              "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
-              "widgetName": "RichTextEditor1",
-              "displayName": "Rich Text Editor",
-              "iconSVG": "/static/media/icon.b35e139c93907b5eab3c68c1db842330.svg",
-              "labelText": "Label",
-              "searchTags": [
-                "input",
-                "rte"
-              ],
-              "topRow": 48,
-              "bottomRow": 110,
-              "parentRowSpace": 10,
-              "labelWidth": "4",
-              "type": "RICH_TEXT_EDITOR_WIDGET",
-              "hideCard": false,
-              "animateLoading": true,
-              "parentColumnSpace": 12.28125,
-              "dynamicTriggerPathList": [],
-              "isToolbarHidden": true,
-              "leftColumn": 0,
-              "dynamicBindingPathList": [
-                {
-                  "key": "borderRadius"
-                },
-                {
-                  "key": "boxShadow"
-                }
-              ],
-              "labelPosition": "Left",
-              "labelTooltip": "this is tooltip",
-              "inputType": "html",
-              "isDisabled": false,
-              "key": "5csqlynw85",
-              "isRequired": true,
-              "isDeprecated": false,
-              "rightColumn": 49,
-              "isDefaultClickDisabled": true,
-              "dynamicHeight": "FIXED",
-              "widgetId": "npufe3gw0o",
-              "isVisible": true,
-              "version": 1,
-              "parentId": "0",
-              "labelAlignment": "right",
-              "renderMode": "CANVAS",
-              "isLoading": false,
-              "originalTopRow": 48,
-              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "maxDynamicHeight": 9000,
-              "originalBottomRow": 77,
-              "defaultText": "This is the initial <b>content</b> of the editor",
               "minDynamicHeight": 4
             }
           ]
