@@ -125,14 +125,17 @@
                   "label": ""
                 }
               },
-              "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
-              "borderColor": "#E0DEDE",
+              "boxShadow": "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
+              "borderColor": "#581c87",
               "widgetName": "jform",
               "submitButtonStyles": {
-                "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-                "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                "boxShadow": "none",
-                "buttonVariant": "PRIMARY"
+                "buttonColor": "#b91c1c",
+                "borderRadius": "1.5rem",
+                "boxShadow": "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
+                "buttonVariant": "PRIMARY",
+                "iconName": "add",
+                "iconAlign": "right",
+                "placement": "CENTER"
               },
               "dynamicPropertyPathList": [
                 {
@@ -155,21 +158,6 @@
               "dynamicBindingPathList": [
                 {
                   "key": "borderRadius"
-                },
-                {
-                  "key": "boxShadow"
-                },
-                {
-                  "key": "submitButtonStyles.buttonColor"
-                },
-                {
-                  "key": "submitButtonStyles.borderRadius"
-                },
-                {
-                  "key": "resetButtonStyles.buttonColor"
-                },
-                {
-                  "key": "resetButtonStyles.borderRadius"
                 },
                 {
                   "key": "schema.__root_schema__.children.name.defaultValue"
@@ -208,7 +196,7 @@
                   "key": "schema.__root_schema__.cellBorderRadius"
                 }
               ],
-              "borderWidth": "1",
+              "borderWidth": "4",
               "sourceData": {
                 "name": "John",
                 "date_of_birth": "20/02/1990",
@@ -217,17 +205,20 @@
               "showReset": true,
               "resetButtonLabel": "Reset",
               "key": "8oct5j1eip",
-              "backgroundColor": "#fff",
+              "backgroundColor": "#e9d5ff",
               "isDeprecated": false,
               "rightColumn": 35,
               "dynamicHeight": "FIXED",
               "autoGenerateForm": true,
               "widgetId": "z6rf5bcv9r",
               "resetButtonStyles": {
-                "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-                "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                "boxShadow": "none",
-                "buttonVariant": "SECONDARY"
+                "buttonColor": "#be185d",
+                "borderRadius": "1.5rem",
+                "boxShadow": "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
+                "buttonVariant": "PRIMARY",
+                "iconName": "add",
+                "iconAlign": "right",
+                "placement": "CENTER"
               },
               "isVisible": true,
               "version": 1,
