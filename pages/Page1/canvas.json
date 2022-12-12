@@ -65,7 +65,7 @@
                   "key": "isDisabled"
                 }
               ],
-              "isDisabled": "{{Switch1.isSwitchedOn? true : false}}",
+              "isDisabled": "{{Switch2.isSwitchedOn? true : false}}",
               "key": "tfvdvrozag",
               "isRequired": false,
               "isDeprecated": false,
