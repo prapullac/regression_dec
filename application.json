@@ -3,6 +3,14 @@
     {
       "id": "Page1",
       "isDefault": true
+    },
+    {
+      "id": "Public.users",
+      "isDefault": false
+    },
+    {
+      "id": "Movies",
+      "isDefault": false
     }
   ],
   "viewMode": false,
